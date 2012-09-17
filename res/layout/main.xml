@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The icons used in this example are 
+Part of: The Spherical icon pack 
+Author: Ahmad Hania, http://ahmad-hania.wateentech.com
+License: CC Attribution Non-Commercial Share Alike
+AND
+Part of: Android R2 Honeycomb icon pack 
+Author: Wallec, http://wwalczyszyn.deviantart.com
+License: CC Attribution Non-Commercial Share Alike -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/controller_description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/prev_custom" />
+
+        <!-- <ToggleButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pause"
+            android:button="@drawable/pause"
+            android:checked="false" />-->
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_custom" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/music_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/music"
+        android:gravity="center" />
+
+</LinearLayout>

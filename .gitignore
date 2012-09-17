@@ -1,0 +1,10 @@
+*.o
+*.d
+*.so
+*.class
+*.dex
+*.apk
+bin/
+libs/
+obj/
+gen/
